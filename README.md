@@ -19,13 +19,19 @@ It can be seen that this sequence (starting at 13 and finishing at 1) contains 1
 Here are examples of the commands I used to compile and run the program 
 
 Compile:
-```g++ -std=c++14 -o collatz_caching Collatz_Caching.cpp```
+```
+g++ -std=c++14 -o collatz_caching Collatz_Caching.cpp
+```
 
 Run: (Upper limit = 101010)
-```/usr/bin/time -al ./collatz_caching 101010```
+```
+/usr/bin/time -al ./collatz_caching 101010
+```
 
 OR
-```/usr/bin/time -al ./collatz_caching```
+```
+/usr/bin/time -al ./collatz_caching
+```
 
 This one will ask you then to enter the value and then use that value
 
